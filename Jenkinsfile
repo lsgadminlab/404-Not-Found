@@ -15,7 +15,7 @@ pipeline {
         stage('Push') {
             steps {
                 withCredentials([usernamePassword(
-                    credentialsId: 'registry-cred',
+                    credentialsId: 'registry-auth',
                     usernameVariable: 'USER',
                     passwordVariable: 'PASS'
                 )]) {
