@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE = "docker.lsgserver.dev/hub:1.0"
+        IMAGE = "docker.lsgserver.dev/not-found:1.0"
     }
 
     stages {
